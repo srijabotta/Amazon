@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lendi Institute of Engineering & Technology</title>
+    <title>Amazon - Online Shopping</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
         }
         header {
-            background-color: #004080;
+            background-color: #232f3e;
             color: white;
             padding: 10px 0;
             text-align: center;
         }
         .navbar {
-            background-color: #003366;
+            background-color: #37475a;
             overflow: hidden;
         }
         .navbar a {
@@ -30,17 +30,20 @@
             text-decoration: none;
         }
         .navbar a:hover {
-            background-color: #0059b3;
+            background-color: #4a90e2;
         }
-        .hero {
-            text-align: center;
-            background-color: #0056b3;
-            color: white;
-            padding: 20px 0;
-            font-size: 24px;
+        .container {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
         }
         .footer {
-            background-color: #004080;
+            background-color: #232f3e;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -53,30 +56,36 @@
 <body>
 
 <header>
-    <h1>Lendi Institute of Engineering & Technology</h1>
-    <p>An Autonomous Institution Approved by AICTE & Permanently Affiliated to JNTU Gurajada, Vizianagaram</p>
+    <h1>Amazon</h1>
+    <p>Your online shopping destination</p>
 </header>
 
 <div class="navbar">
     <a href="#home">Home</a>
-    <a href="#administration">Administration</a>
-    <a href="#academics">Academics</a>
-    <a href="#autonomous">Autonomous</a>
-    <a href="#research">Research</a>
-    <a href="#amenities">Amenities</a>
-    <a href="#activities">Activities</a>
-    <a href="#placements">Placements</a>
-    <a href="#contact">Contact Us</a>
-    <a href="#virtualtour">Virtual Tour</a>
-    <a href="#ecorner">eCorner</a>
+    <a href="#deals">Deals</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
 </div>
 
-<div class="hero">
-    <p>16 Years of Glory...</p>
+<div class="container">
+    <h2>Featured Products</h2>
+    <div class="product">
+        <h3>Product 1</h3>
+        <p>Description of product 1. Price: ₹1,000</p>
+    </div>
+    <div class="product">
+        <h3>Product 2</h3>
+        <p>Description of product 2. Price: ₹2,000</p>
+    </div>
+    <div class="product">
+        <h3>Product 3</h3>
+        <p>Description of product 3. Price: ₹3,000</p>
+    </div>
 </div>
 
 <footer class="footer">
-    <p>&copy; 2024 Lendi Institute of Engineering & Technology</p>
+    <p>&copy; 2024 Amazon Clone. All rights reserved.</p>
 </footer>
 
 </body>
