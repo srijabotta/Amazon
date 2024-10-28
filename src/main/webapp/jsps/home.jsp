@@ -56,7 +56,7 @@
 <body>
 
 <header>
-    <h1>Amazon</h1>
+    <h1>srizon</h1>
     <p>Your online shopping destination</p>
 </header>
 
